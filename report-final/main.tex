@@ -1,0 +1,339 @@
+\documentclass[letterpaper,12pt]{report} % Set paper size to US Letter
+\usepackage{graphicx}   % For including images
+\usepackage{amsmath}    % For mathematical expressions
+\usepackage{amssymb}    % Additional math symbols
+\usepackage{booktabs}   % For professional-looking tables
+\usepackage{float}      % For precise placement of figures/tables
+\usepackage{hyperref}   % For clickable links
+% \usepackage{geometry}   % Page layout customization
+\usepackage{enumitem}   % Customizable lists
+\usepackage{fancyhdr}   % For headers and footers
+\usepackage{titlesec}   % Section title formatting
+% \usepackage[numbers]{natbib} % Use natbib for ASCE-like citation style
+\usepackage{makecell}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{pdfpages}   % to include external PDFs
+\usepackage{caption}    % for \captionof if you want LoF entries
+\usepackage[T1]{fontenc} % Recommended for better font handling
+\usepackage{url}
+\urlstyle{same} % This makes URLs use the same font as the main body text
+
+\usepackage{chngcntr}
+
+
+
+% ---------- Bibliography ----------
+\usepackage[
+    backend=biber,
+    style=ieee,
+    sorting=none,
+    giveninits=true,
+    maxnames=6,
+    doi=false,
+    isbn=false,
+    url=true
+]{biblatex}
+
+\addbibresource{references.bib} % your .bib file
+
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shapes.geometric}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+% \usepackage{ulem} % for underline
+\usepackage[normalem]{ulem}   % keep \emph as italics; avoids biblatex clash
+
+
+
+\usepackage{amsfonts}
+\geometry{letterpaper, margin=1in} % Set margin for US Letter paper
+\setlength{\parindent}{0pt}    % No indentation
+\setlength{\parskip}{1em}      % Add one line of vertical space between paragraphs
+\newcolumntype{Y}{>{\centering\arraybackslash}X}  % centered X column
+
+% Change TOC, List of Figures, and List of Tables titles
+\renewcommand{\contentsname}{Table of Contents}
+\renewcommand{\listfigurename}{List of Figures}
+\renewcommand{\listtablename}{List of Tables}
+
+% Use ASCE-like bibliography style
+% \bibliographystyle{unsrt} % unsrt provides ASCE-like numbered citations
+
+% Title Page
+% \title{\textbf{Sanitary Pump Selection and Force Main Design for Colebrooke Subdivision}}
+% \date{}
+
+\doublespacing
+\begin{document}
+
+\input{cover}
+
+\chapter*{Executive Summary}
+\addcontentsline{toc}{chapter}{Executive Summary}
+
+This report presents the design and cost evaluation of a wastewater conveyance system for the proposed Colebrooke Subdivision located in Florence, Mississippi. Due to site topography, gravity flow alone is insufficient to transport wastewater to the existing municipal sewer system. As a result, a lift station and force main system were required to overcome elevation constraints and ensure reliable wastewater conveyance.
+
+Three design alternatives were evaluated, including a centralized duplex pump station with force main, a distributed grinder pump system, and a deep gravity sewer system. Based on hydraulic performance, constructability, cost, operational reliability, and long-term maintenance considerations, the duplex submersible pump station with a pressurized force main was selected as the most appropriate solution. This configuration provides a balance of reliability, efficiency, and compliance with applicable design standards, including MDEQ and Ten States guidelines.
+
+The final system consists of a duplex submersible pump station discharging through a 4-in PVC force main extending 77.48~ft to an existing municipal sewer manhole. The design is governed by a peak wastewater inflow of 12.46~gpm and a static head of 10.28~ft. The selected pump, Sulzer XFP100C VX, operates at 135.5~gpm and 12.08~ft of head, ensuring adequate capacity and solids-handling capability. The wet well is designed as a 6-ft diameter structure with 250~gal of active storage, providing stable pump cycling and operational reliability.
+
+Hydraulic analysis confirmed that the selected force main and pump configuration satisfy velocity, headloss, and performance requirements. The system achieves a flow velocity of approximately 3.4~ft/s, exceeding the minimum self-cleansing velocity while maintaining efficient operation. The duplex configuration provides redundancy, ensuring continuous service during maintenance or pump failure.
+
+A comprehensive cost estimate was developed using regional bid data, standard cost references, and vendor-based pricing. Direct construction costs total \$210{,}062.44, with additional indirect, engineering, and contractor-related costs resulting in a total project cost of \$323{,}817.42. The analysis indicates that the lift station structure, electrical and control systems, and excavation work dominate the overall cost, while the force main represents a relatively small portion of the budget.
+
+Overall, the proposed design provides a practical, reliable, and cost-effective solution for wastewater conveyance within the Colebrooke Subdivision. The system satisfies hydraulic and regulatory requirements, supports long-term municipal operation, and establishes a robust foundation for future development and infrastructure integration.
+% This report presents the preliminary design and evaluation of a wastewater conveyance system for the proposed Colebrooke Subdivision in Florence, Mississippi. The project was undertaken to develop a reliable and cost-effective solution for collecting and conveying domestic wastewater from thirteen residential lots to the downstream municipal system. The work included analysis of site conditions, estimation of design flows, evaluation of system alternatives, and preparation of preliminary cost estimates in accordance with Mississippi Department of Environmental Quality (MDEQ) guidance~\cite{MDEQ_DesignGuidance_2025}.
+
+% Based on population projections and standard design assumptions, the peak design flow was determined to be approximately 19~gallons per~minute (gpm). Three alternatives were considered: (1) a duplex submersible pump station with a PVC force main, (2) a grinder pump and low-pressure sewer system, and (3) a deep gravity sewer. After technical, economic, and operational evaluation, the duplex submersible pump station with a 4-in PVC C900 DR18 force main was selected as the preferred option. This configuration provides dependable performance, simplified maintenance, and long-term sustainability for small residential developments.
+
+% The total estimated construction cost for the selected design is approximately \$404{,}375, with an annual operation and maintenance cost of about \$7{,}500. The design achieves a balanced approach between performance, cost, and reliability while maintaining compliance with all applicable standards. Overall, the results demonstrate that the selected system is both technically sound and economically viable, forming a strong foundation for final design development and implementation in the next phase of the project.
+
+
+
+
+\newpage
+\tableofcontents   % Generates TOC
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+
+
+% \maketitle
+
+% \begin{center}
+%   {\LARGE \textbf{Sanitary Pump Selection and Force Main Design for Colebrooke Subdivision}}
+% \end{center}
+% \hrule
+
+
+% Include separate section files
+% \input{sections/part1.tex}
+% \newpage
+% \input{sections/part2.tex}
+% \newpage
+% \input{sections/part3.tex}
+% \newpage
+% \input{sections/part4.tex}
+% \newpage
+% \input{sections/part5.tex}
+% \newpage
+% \input{sections/part6.tex}
+
+\input{sections/ch1.tex}
+\newpage
+\input{sections/ch2.tex}
+\newpage
+\input{sections/ch3.tex}
+\newpage
+\input{sections/ch4.tex}
+\newpage
+\input{sections/ch5_1.tex}
+\newpage
+% \input{sections/ch5_2.tex}
+% \newpage
+\input{sections/ch5_3.tex}
+\newpage
+\input{sections/ch5_4.tex}
+\newpage
+\input{sections/ch5_5.tex}
+\newpage
+\input{sections/ch5_6.tex}
+\newpage
+\input{sections/ch6.tex}
+\newpage
+% \section*{References}
+\printbibliography[heading=bibintoc,title={References}]
+
+% Mississippi Department of Environmental Quality (MDEQ). \textit{Guidance for the Design of Publicly Owned Wastewater Facilities.} Jackson, MS.
+
+% Project D -- Subdivision. (2020). \textit{Colebrooke Subdivision Design Report.} Florence, Mississippi.
+
+% Geotechnical Report -- Colebrooke Subdivision. (2022). \textit{Subsurface Investigation and Soil Evaluation for Proposed Residential Development.}
+
+% Ten States Standards. (2014). \textit{Recommended Standards for Wastewater Facilities.} Great Lakes -- Upper Mississippi River Board.
+
+% Romtec Utilities. \textit{Standard Duplex Lift Station Assembly Diagram.} Retrieved from \url{https://romtecutilities.com}
+
+% Smith Pump Company. \textit{Duplex Submersible Lift Station Plan and Section Drawing.}
+
+% Cape Fear Public Utility Authority (CFPUA). \textit{Residential Grinder Pump Connection Diagram.} Retrieved from \url{https://www.cfpua.org}
+
+% Lakeside Municipal Utility District. \textit{Low-Pressure Grinder Pump Sewer Layout Diagram.}
+
+% Frederick County Division of Utilities and Solid Waste Management. \textit{Grinder Pump and Gravity Flow Connection Illustration.}
+
+% Sewer Engineering Illustration (Public Domain). \textit{Cross-Section of Gravity Sewer System Showing Manhole and Main Alignment.}
+
+\clearpage
+\appendix
+\addcontentsline{toc}{chapter}{Appendix}
+
+% Appendix A
+\renewcommand{\thesection}{A.\arabic{section}}
+\setcounter{section}{0}
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{A.\arabic{figure}}
+
+\section{Preliminary Plat}
+\begin{figure}[H]
+\centering
+\includegraphics[
+width=\textwidth,
+]{./subdivision_plat_Prelim Plat_Colebrooke Subdivsion (1) (1).pdf}
+\end{figure}
+
+
+
+% Appendix B
+\renewcommand{\thesection}{B.\arabic{section}}
+\setcounter{section}{0}
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{B.\arabic{figure}}
+
+\section{XFP100C VX1 Data Sheet}
+\begin{figure}[H]
+\centering
+\includegraphics[
+width=0.95\textwidth,
+page=1,
+]{./sulzer_xfp100c_curve.pdf}
+\end{figure}
+
+\includepdf[pages={2,3},pagecommand={},scale=0.9]{./sulzer_xfp100c_curve.pdf}
+
+
+\section{XFP100C VX1 Dimension Sheet}
+\begin{figure}[H]
+\centering
+\includegraphics[
+width=0.8\textwidth,
+page=1,
+]{./dimension_ANM22624.pdf}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[
+width=0.95\textwidth,
+page=2,
+]{./dimension_ANM22624.pdf}
+\end{figure}
+
+
+% Appendix C
+\renewcommand{\thesection}{C.\arabic{section}}
+\setcounter{section}{0}
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\renewcommand{\thefigure}{C.\arabic{figure}}
+\renewcommand{\thetable}{C.\arabic{table}}
+
+\section{Detailed Cost Estimate Tables}
+
+This appendix presents the detailed cost estimate used for the wastewater lift station and force main system. Table~\ref{tab:appendix_cost_detail} consolidates the direct construction costs, indirect costs, and engineering and design costs into a single detailed appendix table. Tables~\ref{tab:appendix_adders} and \ref{tab:appendix_total_cost} present the contractor adders and total project cost summary, respectively.
+
+\begin{table}[H]
+\centering
+\caption{Detailed Cost Estimate}
+\label{tab:appendix_cost_detail}
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{c l c c c c}
+\toprule
+\textbf{Item No.} & \textbf{Description} & \textbf{Qty} & \textbf{Unit} & \textbf{Unit Cost (\$)} & \textbf{Line Cost (\$)} \\
+\midrule
+\multicolumn{6}{l}{\textbf{Direct Construction Costs}} \\
+\midrule
+1  & Sulzer XFP100C VX pumps & 2 & EA & 6,881.22 & 13,762.44 \\
+2  & Precast concrete wet well (6-ft dia, 18--20 ft depth) & 1 & LS & 55,000.00 & 55,000.00 \\
+3  & Valve vault and discharge assembly & 1 & LS & 22,000.00 & 22,000.00 \\
+4  & Discharge piping system, guide rails, fittings & 1 & LS & 14,000.00 & 14,000.00 \\
+5  & Check valve and gate valve (4-in) & 1 & LS & 6,500.00 & 6,500.00 \\
+6  & Electrical and control system & 1 & LS & 38,000.00 & 38,000.00 \\
+7  & Wet well protective coating & 1 & LS & 8,000.00 & 8,000.00 \\
+8  & Site excavation, backfill, grading & 1 & LS & 22,000.00 & 22,000.00 \\
+9  & Access pad / gravel surface & 1 & LS & 8,000.00 & 8,000.00 \\
+10 & Erosion and sediment control & 1 & LS & 4,000.00 & 4,000.00 \\
+11 & Quick-connect bypass assembly & 1 & LS & 5,500.00 & 5,500.00 \\
+12 & 4-in PVC C900 DR18 force main & 80 & LF & 40.00 & 3,200.00 \\
+13 & Trench bedding, backfill, restoration & 80 & LF & 20.00 & 1,600.00 \\
+14 & Force main fittings, tracer wire & 1 & LS & 3,500.00 & 3,500.00 \\
+15 & Connection to existing manhole & 1 & LS & 2,500.00 & 2,500.00 \\
+16 & Traffic control & 1 & LS & 2,500.00 & 2,500.00 \\
+\midrule
+\multicolumn{5}{r}{\textbf{Direct Cost Subtotal}} & \textbf{210,062.44} \\
+\midrule
+\multicolumn{6}{l}{\textbf{Indirect Costs}} \\
+\midrule
+17 & Site preparation & 1 & LS & 6,000.00 & 6,000.00 \\
+18 & Temporary facilities & 1 & LS & 4,000.00 & 4,000.00 \\
+19 & Utilities allowance & 1 & LS & 3,500.00 & 3,500.00 \\
+20 & Mobilization / demobilization & 1 & LS & 15,000.00 & 15,000.00 \\
+\midrule
+\multicolumn{5}{r}{\textbf{Indirect Cost Subtotal}} & \textbf{28,500.00} \\
+\midrule
+\multicolumn{6}{l}{\textbf{Engineering and Design Costs}} \\
+\midrule
+21 & Surveying & 1 & LS & 4,000.00 & 4,000.00 \\
+22 & Geotechnical investigation & 1 & LS & 6,000.00 & 6,000.00 \\
+23 & Design and consulting fees & 1 & LS & 18,000.00 & 18,000.00 \\
+\midrule
+\multicolumn{5}{r}{\textbf{Engineering \& Design Subtotal}} & \textbf{28,000.00} \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Cost Adders: Overhead, Profit, and Contingency}
+\label{tab:appendix_adders}
+\begin{tabular}{l c c c}
+\toprule
+\textbf{Category} & \textbf{Basis} & \textbf{Rate} & \textbf{Amount (\$)} \\
+\midrule
+Contractor Overhead & Direct + Indirect & 7\%  & 16,699.37 \\
+Contractor Profit   & Direct + Indirect & 7\%  & 16,699.37 \\
+Contingency         & Direct + Indirect & 10\% & 23,856.24 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Total Project Cost Summary}
+\label{tab:appendix_total_cost}
+\begin{tabular}{l c}
+\toprule
+\textbf{Category} & \textbf{Amount (\$)} \\
+\midrule
+Direct Construction Costs & 210,062.44 \\
+Indirect Costs            & 28,500.00  \\
+Engineering \& Design     & 28,000.00  \\
+Contractor Overhead       & 16,699.37  \\
+Contractor Profit         & 16,699.37  \\
+Contingency               & 23,856.24  \\
+\midrule
+\textbf{Total Project Cost} & \textbf{323,817.43} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+% \section*{Appendix A: TLDR}
+% \section*{Flow Determination Procedure (Pump Station \& Force Main Design)}
+% % Appendix B
+% \section*{Appendix B: Preliminary Subdivision Plat}
+% \addcontentsline{toc}{section}{Appendix B: Preliminary Subdivision Plat}
+% \includepdf[pages=-,pagecommand={},scale=0.95]{\detokenize{subdivision_plat_Prelim Plat_Colebrooke Subdivsion (1) (1).pdf}}
+
+
+\end{document}

@@ -1,0 +1,674 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{ProjectD_Colebrooke_2020}{report}{}{}
+      \list{institution}{2}{%
+        {Department of Civil}%
+        {Environmental Engineering, Jackson State University}%
+      }
+      \list{location}{1}{%
+        {Jackson, Mississippi}%
+      }
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{note}{Internal design document.}
+      \field{title}{Colebrooke Subdivision Preliminary Design Report (Project D – Subdivision)}
+      \field{type}{techreport}
+      \field{year}{2020}
+    \endentry
+    \entry{MDEQ_DesignGuidance_2025}{report}{}{}
+      \list{institution}{1}{%
+        {Mississippi Department of Environmental Quality (MDEQ)}%
+      }
+      \list{location}{1}{%
+        {Jackson, Mississippi}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed November 2025.}
+      \field{title}{Guidance for the Design of Publicly Owned Wastewater Facilities}
+      \field{type}{techreport}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.mdeq.ms.gov/about-mdeq/grants-loans-and-trust-funds-available-through-mdeq/guidance-for-the-design-of-publicly-owned-wastewater-facilities/
+      \endverb
+      \verb{url}
+      \verb https://www.mdeq.ms.gov/about-mdeq/grants-loans-and-trust-funds-available-through-mdeq/guidance-for-the-design-of-publicly-owned-wastewater-facilities/
+      \endverb
+    \endentry
+    \entry{TenStates_RecommendedStandards_2014}{report}{}{}
+      \list{institution}{3}{%
+        {Great Lakes -- Upper Mississippi River Board of State}%
+        {Provincial Public Health}%
+        {Environmental Managers}%
+      }
+      \list{location}{1}{%
+        {Albany, New York}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{note}{Often cited as ``Ten States Standards.''}
+      \field{title}{Recommended Standards for Wastewater Facilities}
+      \field{type}{techreport}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://www.health.state.mn.us/communities/environment/water/docs/tenstates/tenstatestan2014.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.health.state.mn.us/communities/environment/water/docs/tenstates/tenstatestan2014.pdf
+      \endverb
+    \endentry
+    \entry{Jensen_PumpStationDesignGuidelines_2012}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=7d91530543e1afbff7766945355966b6}{%
+           family={{Jensen Engineered Systems}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d91530543e1afbff7766945355966b6}
+      \strng{fullhash}{7d91530543e1afbff7766945355966b6}
+      \strng{fullhashraw}{7d91530543e1afbff7766945355966b6}
+      \strng{bibnamehash}{7d91530543e1afbff7766945355966b6}
+      \strng{authorbibnamehash}{7d91530543e1afbff7766945355966b6}
+      \strng{authornamehash}{7d91530543e1afbff7766945355966b6}
+      \strng{authorfullhash}{7d91530543e1afbff7766945355966b6}
+      \strng{authorfullhashraw}{7d91530543e1afbff7766945355966b6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pump Station Design Guidelines}
+      \field{year}{2012}
+    \endentry
+    \entry{OSHA_ConfinedSpace_2024}{manual}{}{}
+      \list{location}{1}{%
+        {Washington, District of Columbia}%
+      }
+      \list{organization}{2}{%
+        {Occupational Safety}%
+        {Health Administration (OSHA), U.S. Department of Labor}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{note}{Federal regulation governing confined-space entry and safety.}
+      \field{title}{29 CFR 1910.146: Permit-Required Confined Spaces}
+      \field{year}{2024}
+    \endentry
+    \entry{Romtec_StandardDuplex_LiftStation}{manual}{}{}
+      \list{location}{1}{%
+        {Roseburg, Oregon}%
+      }
+      \list{organization}{1}{%
+        {Romtec Utilities}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Standard Duplex Lift Station Assembly Diagram}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://romtecutilities.com
+      \endverb
+      \verb{url}
+      \verb https://romtecutilities.com
+      \endverb
+    \endentry
+    \entry{SmithPump_DuplexSubmersible_LiftStation}{manual}{}{}
+      \list{location}{1}{%
+        {Waco, Texas}%
+      }
+      \list{organization}{1}{%
+        {Smith Pump Company, Inc.}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{Duplex Submersible Lift Station: Plan and Section Drawing}
+      \field{year}{2023}
+    \endentry
+    \entry{NFPA_70_2023}{manual}{}{}
+      \list{organization}{1}{%
+        {NFPA}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{NFPA 70: National Electrical Code}
+      \field{year}{2023}
+    \endentry
+    \entry{EPA_LiftStation_DesignManual_2004}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=7839a87f8f6a2de1a1372c1a685705a4}{%
+           family={EPA},
+           familyi={E\bibinitperiod},
+           given={U.S.},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{7839a87f8f6a2de1a1372c1a685705a4}
+      \strng{fullhash}{7839a87f8f6a2de1a1372c1a685705a4}
+      \strng{fullhashraw}{7839a87f8f6a2de1a1372c1a685705a4}
+      \strng{bibnamehash}{7839a87f8f6a2de1a1372c1a685705a4}
+      \strng{authorbibnamehash}{7839a87f8f6a2de1a1372c1a685705a4}
+      \strng{authornamehash}{7839a87f8f6a2de1a1372c1a685705a4}
+      \strng{authorfullhash}{7839a87f8f6a2de1a1372c1a685705a4}
+      \strng{authorfullhashraw}{7839a87f8f6a2de1a1372c1a685705a4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wastewater Collection and Pumping Systems}
+      \field{type}{techreport}
+      \field{year}{2004}
+    \endentry
+    \entry{CFPUA_ResidentialGrinderPump_Diagram}{manual}{}{}
+      \list{location}{1}{%
+        {Wilmington, North Carolina}%
+      }
+      \list{organization}{1}{%
+        {Cape Fear Public Utility Authority}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{Residential Grinder Pump Connection Diagram}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.cfpua.org
+      \endverb
+      \verb{url}
+      \verb https://www.cfpua.org
+      \endverb
+    \endentry
+    \entry{LakesideMUD_LowPressureGrinderPump_SewerLayout}{manual}{}{}
+      \list{location}{1}{%
+        {Texas, USA}%
+      }
+      \list{organization}{1}{%
+        {Lakeside Municipal Utility District}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{Low-Pressure Grinder Pump Sewer Layout Diagram}
+      \field{year}{2023}
+    \endentry
+    \entry{MauiRecovers_2024}{misc}{}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Public utility education resource, Maui Recovers}
+      \field{note}{Publicly available diagram comparing grinder-pump and gravity sewer connections.}
+      \field{title}{Gravity vs. Grinder Sewer Connection Illustration}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.mauirecovers.org
+      \endverb
+      \verb{url}
+      \verb https://www.mauirecovers.org
+      \endverb
+    \endentry
+    \entry{Tilley_2014}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=a42e8bd050f65fc2ceef3318b2e02b75}{%
+           family={Tilley},
+           familyi={T\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=7805c8761a85d8ed1c603ad45fe78bb4}{%
+           family={Ulrich},
+           familyi={U\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=8aef5a4d457fb6398a5091bf2f03907d}{%
+           family={Lüthi},
+           familyi={L\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{77fa6c6878c9b6c619303bb648a5a2ac}
+      \strng{fullhash}{77fa6c6878c9b6c619303bb648a5a2ac}
+      \strng{fullhashraw}{77fa6c6878c9b6c619303bb648a5a2ac}
+      \strng{bibnamehash}{77fa6c6878c9b6c619303bb648a5a2ac}
+      \strng{authorbibnamehash}{77fa6c6878c9b6c619303bb648a5a2ac}
+      \strng{authornamehash}{77fa6c6878c9b6c619303bb648a5a2ac}
+      \strng{authorfullhash}{77fa6c6878c9b6c619303bb648a5a2ac}
+      \strng{authorfullhashraw}{77fa6c6878c9b6c619303bb648a5a2ac}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Compendium of Sanitation Systems}
+      \field{year}{2014}
+    \endentry
+    \entry{Geotech_Colebrooke_2022}{report}{}{}
+      \list{institution}{2}{%
+        {Department of Civil}%
+        {Environmental Engineering, Jackson State University}%
+      }
+      \list{location}{1}{%
+        {Jackson, Mississippi}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{title}{Subsurface Investigation and Soil Evaluation for Proposed Residential Development: Colebrooke Subdivision}
+      \field{type}{techreport}
+      \field{year}{2022}
+    \endentry
+    \entry{RSMeans_CostData_2025}{manual}{}{}
+      \list{location}{1}{%
+        {Kingston, Massachusetts}%
+      }
+      \list{organization}{1}{%
+        {Gordian Group, Inc.}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{title}{RSMeans Mechanical and Electrical Cost Data}
+      \field{year}{2025}
+    \endentry
+    \entry{ExcelFluidGroup_PumpComparison_2024}{manual}{}{}
+      \list{location}{1}{%
+        {Hudson, Ohio}%
+      }
+      \list{organization}{1}{%
+        {Excel Fluid Group}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{title}{Cost Comparison: Field Submersible and Grinder Pump Systems}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://excelfluidgroup.com
+      \endverb
+      \verb{url}
+      \verb https://excelfluidgroup.com
+      \endverb
+    \endentry
+    \entry{Sulzer_ABSEL}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=168e86b1fa31eb747199a6cf52222dbb}{%
+           family={{Sulzer Ltd.}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{168e86b1fa31eb747199a6cf52222dbb}
+      \strng{fullhash}{168e86b1fa31eb747199a6cf52222dbb}
+      \strng{fullhashraw}{168e86b1fa31eb747199a6cf52222dbb}
+      \strng{bibnamehash}{168e86b1fa31eb747199a6cf52222dbb}
+      \strng{authorbibnamehash}{168e86b1fa31eb747199a6cf52222dbb}
+      \strng{authornamehash}{168e86b1fa31eb747199a6cf52222dbb}
+      \strng{authorfullhash}{168e86b1fa31eb747199a6cf52222dbb}
+      \strng{authorfullhashraw}{168e86b1fa31eb747199a6cf52222dbb}
+      \field{extraname}{1}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ABSEL Pump Selection Tool}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.sulzer.com/en/shared/applications/absel
+      \endverb
+      \verb{url}
+      \verb https://www.sulzer.com/en/shared/applications/absel
+      \endverb
+    \endentry
+    \entry{Sulzer_PumpCatalog_2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=168e86b1fa31eb747199a6cf52222dbb}{%
+           family={{Sulzer Ltd.}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{168e86b1fa31eb747199a6cf52222dbb}
+      \strng{fullhash}{168e86b1fa31eb747199a6cf52222dbb}
+      \strng{fullhashraw}{168e86b1fa31eb747199a6cf52222dbb}
+      \strng{bibnamehash}{168e86b1fa31eb747199a6cf52222dbb}
+      \strng{authorbibnamehash}{168e86b1fa31eb747199a6cf52222dbb}
+      \strng{authornamehash}{168e86b1fa31eb747199a6cf52222dbb}
+      \strng{authorfullhash}{168e86b1fa31eb747199a6cf52222dbb}
+      \strng{authorfullhashraw}{168e86b1fa31eb747199a6cf52222dbb}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Manufacturer pump performance curves and technical specifications}
+      \field{title}{Wastewater Pump Product Catalog}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.sulzer.com
+      \endverb
+      \verb{url}
+      \verb https://www.sulzer.com
+      \endverb
+    \endentry
+    \entry{MetcalfEddy_Wastewater_2014}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b1e5dd582cf5d6f7a245e7eda6e48c98}{%
+           family={Tchobanoglous},
+           familyi={T\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{b1e5dd582cf5d6f7a245e7eda6e48c98}
+      \strng{fullhash}{b1e5dd582cf5d6f7a245e7eda6e48c98}
+      \strng{fullhashraw}{b1e5dd582cf5d6f7a245e7eda6e48c98}
+      \strng{bibnamehash}{b1e5dd582cf5d6f7a245e7eda6e48c98}
+      \strng{authorbibnamehash}{b1e5dd582cf5d6f7a245e7eda6e48c98}
+      \strng{authornamehash}{b1e5dd582cf5d6f7a245e7eda6e48c98}
+      \strng{authorfullhash}{b1e5dd582cf5d6f7a245e7eda6e48c98}
+      \strng{authorfullhashraw}{b1e5dd582cf5d6f7a245e7eda6e48c98}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wastewater Engineering}
+      \field{year}{2014}
+    \endentry
+    \entry{HOMA_HazenWilliams_1998}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d4c616561e131394f5cf76c7256359fe}{%
+           family={{HOMA Pump Technology}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4c616561e131394f5cf76c7256359fe}
+      \strng{fullhash}{d4c616561e131394f5cf76c7256359fe}
+      \strng{fullhashraw}{d4c616561e131394f5cf76c7256359fe}
+      \strng{bibnamehash}{d4c616561e131394f5cf76c7256359fe}
+      \strng{authorbibnamehash}{d4c616561e131394f5cf76c7256359fe}
+      \strng{authornamehash}{d4c616561e131394f5cf76c7256359fe}
+      \strng{authorfullhash}{d4c616561e131394f5cf76c7256359fe}
+      \strng{authorfullhashraw}{d4c616561e131394f5cf76c7256359fe}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Technical paper}
+      \field{month}{9}
+      \field{note}{Technical paper listed by HOMA; verify author name locally if your copy shows an individual author.}
+      \field{title}{Limitations and Proper Use of the Hazen-Williams Equation}
+      \field{year}{1998}
+      \verb{urlraw}
+      \verb https://homapump.com/
+      \endverb
+      \verb{url}
+      \verb https://homapump.com/
+      \endverb
+    \endentry
+    \entry{ANSI_HI_98_1998}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=cf064d5b6e2e7ce67437095d7a6e4a69}{%
+           family={{Hydraulic Institute}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Parsippany, New Jersey}%
+      }
+      \list{organization}{1}{%
+        {Hydraulic Institute}%
+      }
+      \strng{namehash}{cf064d5b6e2e7ce67437095d7a6e4a69}
+      \strng{fullhash}{cf064d5b6e2e7ce67437095d7a6e4a69}
+      \strng{fullhashraw}{cf064d5b6e2e7ce67437095d7a6e4a69}
+      \strng{bibnamehash}{cf064d5b6e2e7ce67437095d7a6e4a69}
+      \strng{authorbibnamehash}{cf064d5b6e2e7ce67437095d7a6e4a69}
+      \strng{authornamehash}{cf064d5b6e2e7ce67437095d7a6e4a69}
+      \strng{authorfullhash}{cf064d5b6e2e7ce67437095d7a6e4a69}
+      \strng{authorfullhashraw}{cf064d5b6e2e7ce67437095d7a6e4a69}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Includes intake-design guidance and equations such as Eq. (9.8.2.1-2).}
+      \field{title}{ANSI/HI 9.8-1998: Rotodynamic Pumps for Pump Intake Design}
+      \field{year}{1998}
+    \endentry
+    \entry{Hecker_1987_Conclusions}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=9ef5f965699d32f40d51dfbad6b08f5b}{%
+           family={Hecker},
+           familyi={H\bibinitperiod},
+           given={G.\bibnamedelimi E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=3ab2c57deeb4ceb72053277390916d44}{%
+           family={Knauss},
+           familyi={K\bibinitperiod},
+           given={Jost},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rotterdam}%
+      }
+      \list{publisher}{1}{%
+        {A. A. Balkema}%
+      }
+      \strng{namehash}{9ef5f965699d32f40d51dfbad6b08f5b}
+      \strng{fullhash}{9ef5f965699d32f40d51dfbad6b08f5b}
+      \strng{fullhashraw}{9ef5f965699d32f40d51dfbad6b08f5b}
+      \strng{bibnamehash}{9ef5f965699d32f40d51dfbad6b08f5b}
+      \strng{authorbibnamehash}{9ef5f965699d32f40d51dfbad6b08f5b}
+      \strng{authornamehash}{9ef5f965699d32f40d51dfbad6b08f5b}
+      \strng{authorfullhash}{9ef5f965699d32f40d51dfbad6b08f5b}
+      \strng{authorfullhashraw}{9ef5f965699d32f40d51dfbad6b08f5b}
+      \strng{editorbibnamehash}{3ab2c57deeb4ceb72053277390916d44}
+      \strng{editornamehash}{3ab2c57deeb4ceb72053277390916d44}
+      \strng{editorfullhash}{3ab2c57deeb4ceb72053277390916d44}
+      \strng{editorfullhashraw}{3ab2c57deeb4ceb72053277390916d44}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Swirling Flow Problems at Intakes}
+      \field{series}{IAHR Hydraulic Structures Design Manual}
+      \field{title}{Conclusions}
+      \field{volume}{1}
+      \field{year}{1987}
+      \field{pages}{139\bibrangedash 156}
+      \range{pages}{18}
+    \endentry
+    \entry{MDOT_BidTab_2024}{report}{}{}
+      \list{institution}{1}{%
+        {Mississippi Department of Transportation (MDOT)}%
+      }
+      \list{location}{1}{%
+        {Jackson, Mississippi}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Average Unit Bid Price Report}
+      \field{type}{techreport}
+      \field{year}{2024}
+    \endentry
+    \entry{CityMagnolia_BidTab_2024}{report}{}{}
+      \list{institution}{1}{%
+        {City of Magnolia}%
+      }
+      \list{location}{1}{%
+        {Magnolia, Mississippi}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{CDBG Sewer System Improvements – Bid Tabulation}
+      \field{type}{techreport}
+      \field{year}{2024}
+    \endentry
+    \entry{CityClinton_BidTab_2020}{report}{}{}
+      \list{institution}{1}{%
+        {City of Clinton, Mississippi}%
+      }
+      \list{location}{1}{%
+        {Clinton, Mississippi}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{note}{Certified bid tabulation used as a recent municipal reference for construction unit prices.}
+      \field{title}{2018 Transportation Improvements -- STP-0049-00(021)LPA/107846-701000: Arrow Drive \& Cynthia Road Multi Use Path Certified Bid Tabulation}
+      \field{type}{techreport}
+      \field{year}{2020}
+    \endentry
+    \entry{WaterLevelControls_LiftStationCosts_2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=80b756d9fbc5fa7fc0f9d0d663158e1c}{%
+           family={{Water Level Controls}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{80b756d9fbc5fa7fc0f9d0d663158e1c}
+      \strng{fullhash}{80b756d9fbc5fa7fc0f9d0d663158e1c}
+      \strng{fullhashraw}{80b756d9fbc5fa7fc0f9d0d663158e1c}
+      \strng{bibnamehash}{80b756d9fbc5fa7fc0f9d0d663158e1c}
+      \strng{authorbibnamehash}{80b756d9fbc5fa7fc0f9d0d663158e1c}
+      \strng{authornamehash}{80b756d9fbc5fa7fc0f9d0d663158e1c}
+      \strng{authorfullhash}{80b756d9fbc5fa7fc0f9d0d663158e1c}
+      \strng{authorfullhashraw}{80b756d9fbc5fa7fc0f9d0d663158e1c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Vendor reference for lift station cost ranges and component-level pricing.}
+      \field{title}{Sewage Lift Station Costs}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://waterlevelcontrols.com/sewage-lift-station-costs-2/
+      \endverb
+      \verb{url}
+      \verb https://waterlevelcontrols.com/sewage-lift-station-costs-2/
+      \endverb
+    \endentry
+    \entry{Wildwood_UtilityCostSchedule_2022}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=5f4e073b67e6ff989d76d8309e8f66b5}{%
+           family={{City of Wildwood, Florida}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f4e073b67e6ff989d76d8309e8f66b5}
+      \strng{fullhash}{5f4e073b67e6ff989d76d8309e8f66b5}
+      \strng{fullhashraw}{5f4e073b67e6ff989d76d8309e8f66b5}
+      \strng{bibnamehash}{5f4e073b67e6ff989d76d8309e8f66b5}
+      \strng{authorbibnamehash}{5f4e073b67e6ff989d76d8309e8f66b5}
+      \strng{authornamehash}{5f4e073b67e6ff989d76d8309e8f66b5}
+      \strng{authorfullhash}{5f4e073b67e6ff989d76d8309e8f66b5}
+      \strng{authorfullhashraw}{5f4e073b67e6ff989d76d8309e8f66b5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Municipal utility construction cost schedule used for comparison of sanitary sewer and force main costs.}
+      \field{title}{Utility Construction Cost Schedule -- Sanitary Sewer}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.wildwood-fl.gov
+      \endverb
+      \verb{url}
+      \verb https://www.wildwood-fl.gov
+      \endverb
+    \endentry
+    \entry{CertifiedBidTab_Provided_2024}{report}{}{}
+      \list{institution}{1}{%
+        {Provided course/project reference document}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{note}{Recent project bid tabulation provided for cost comparison in the capstone cost estimate. Update institution, project title, and year if fuller source information is available on the original document.}
+      \field{title}{Certified Bid Tab}
+      \field{type}{techreport}
+      \field{year}{2024}
+    \endentry
+    \entry{CityClinton_ArrowDrive_2025}{report}{}{}
+      \list{institution}{1}{%
+        {City of Clinton, Mississippi}%
+      }
+      \list{location}{1}{%
+        {Clinton, Mississippi}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{note}{Planning-level construction cost estimate including construction contingency, construction engineering, inspection and testing, and preliminary engineering.}
+      \field{title}{Estimated Construction Costs: Arrow Drive Multi Use Trail -- Clinton Park to Traceway Park}
+      \field{type}{techreport}
+      \field{year}{2025}
+    \endentry
+    \entry{FHWA_MajorProjectCostGuidance_2007}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=07d1779251d3acb80633aea3fe4d4205}{%
+           family={{FHWA}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{07d1779251d3acb80633aea3fe4d4205}
+      \strng{fullhash}{07d1779251d3acb80633aea3fe4d4205}
+      \strng{fullhashraw}{07d1779251d3acb80633aea3fe4d4205}
+      \strng{bibnamehash}{07d1779251d3acb80633aea3fe4d4205}
+      \strng{authorbibnamehash}{07d1779251d3acb80633aea3fe4d4205}
+      \strng{authornamehash}{07d1779251d3acb80633aea3fe4d4205}
+      \strng{authorfullhash}{07d1779251d3acb80633aea3fe4d4205}
+      \strng{authorfullhashraw}{07d1779251d3acb80633aea3fe4d4205}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cost Estimating Guidance}
+      \field{type}{techreport}
+      \field{year}{2007}
+    \endentry
+    \entry{Shifat_CostEstimate_2026}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=f02acb204c5389c855542cca629848ff}{%
+           family={Shifat},
+           familyi={S\bibinitperiod},
+           given={Shams\bibnamedelima E},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Jackson State University}%
+      }
+      \strng{namehash}{f02acb204c5389c855542cca629848ff}
+      \strng{fullhash}{f02acb204c5389c855542cca629848ff}
+      \strng{fullhashraw}{f02acb204c5389c855542cca629848ff}
+      \strng{bibnamehash}{f02acb204c5389c855542cca629848ff}
+      \strng{authorbibnamehash}{f02acb204c5389c855542cca629848ff}
+      \strng{authornamehash}{f02acb204c5389c855542cca629848ff}
+      \strng{authorfullhash}{f02acb204c5389c855542cca629848ff}
+      \strng{authorfullhashraw}{f02acb204c5389c855542cca629848ff}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cost Estimate for Colebrooke Subdivision}
+      \field{type}{techreport}
+      \field{year}{2026}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
